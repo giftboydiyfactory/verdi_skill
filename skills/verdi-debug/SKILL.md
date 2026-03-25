@@ -1,6 +1,7 @@
 ---
 name: verdi-debug
-description: "Autonomous hardware simulation debug orchestrator. Use when user provides FSDB/VDB waveform files, simulation error logs, or asks to debug/analyze hardware simulation results. Triggers on: fsdb, vdb, waveform, debug, trace, signal, coverage, simulation error, RCA, root cause, nWave, Verdi."
+version: 0.1.0
+description: "This skill should be used when the user asks to 'debug a simulation failure', 'analyze this FSDB', 'find root cause', 'read this waveform', 'check coverage', or provides FSDB/VDB file paths with error logs. Also triggers on keywords: fsdb, vdb, waveform, debug, trace, signal, coverage, RCA, root cause, nWave, Verdi."
 ---
 
 # Verdi Debug Orchestrator

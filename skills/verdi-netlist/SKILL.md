@@ -1,6 +1,7 @@
 ---
 name: verdi-netlist
-description: "Complete pynpi.netlist API reference for design netlist traversal — instance hierarchy, port/net connectivity, driver/load tracing, fan-in/fan-out register chains, and signal-to-signal connection analysis. Use when tracing signal connectivity or understanding design hierarchy."
+version: 0.1.0
+description: "This skill should be used when the user asks to 'trace driver', 'find load', 'get port map', 'check connectivity', 'fan-in analysis', or needs to traverse design netlist via KDB. Provides the pynpi.netlist API reference."
 ---
 
 # pynpi.netlist API Reference

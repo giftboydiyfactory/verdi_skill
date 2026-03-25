@@ -1,6 +1,7 @@
 ---
 name: verdi-coverage
-description: "Complete pynpi.cov API reference for reading VDB coverage databases — line, toggle, FSM, branch, condition, assertion coverage metrics, test management, exclusions, and gap analysis. Use when analyzing VDB coverage data."
+version: 0.1.0
+description: "This skill should be used when the user asks to 'read coverage', 'analyze VDB', 'check toggle coverage', 'find uncovered bins', 'merge tests', or needs to query VDB coverage databases. Provides the complete pynpi.cov API reference."
 ---
 
 # Verdi Coverage — pynpi.cov API Reference
@@ -187,7 +188,7 @@ Returns `bool` — True on success.
 
 ## Resource Management
 
-**CRITICAL: You must release ALL handles when done to avoid memory leaks.**
+**CRITICAL: Release ALL handles when done to avoid memory leaks.**
 
 ```python
 cov.release_handle(hdl)

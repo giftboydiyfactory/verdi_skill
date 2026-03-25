@@ -1,6 +1,7 @@
 ---
 name: verdi-language
-description: "Complete pynpi.lang API reference for RTL source analysis — signal driver/load tracing through RTL, active trace at specific simulation time, hierarchy exploration, pattern matching for instances/signals, expression decompilation, and source-to-waveform correlation. Use when tracing signals through RTL or correlating waveform with source code."
+version: 0.1.0
+description: "This skill should be used when the user asks to 'trace signal driver in RTL', 'find source file location', 'active trace at time', 'find signals by pattern', or needs RTL source analysis via KDB. Provides the pynpi.lang API reference."
 ---
 
 # pynpi.lang API Reference

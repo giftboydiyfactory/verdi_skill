@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "description": "AI-driven Verdi/FSDB/VDB analysis and hardware debug",
   "skills": [
-    "skills/verdi-debug.md",
-    "skills/verdi-env.md",
-    "skills/verdi-waveform.md",
-    "skills/verdi-rca.md",
-    "skills/verdi-coverage.md",
-    "skills/verdi-netlist.md",
-    "skills/verdi-language.md",
-    "skills/verdi-transaction.md"
+    "skills/verdi-debug/SKILL.md",
+    "skills/verdi-env/SKILL.md",
+    "skills/verdi-waveform/SKILL.md",
+    "skills/verdi-rca/SKILL.md",
+    "skills/verdi-coverage/SKILL.md",
+    "skills/verdi-netlist/SKILL.md",
+    "skills/verdi-language/SKILL.md",
+    "skills/verdi-transaction/SKILL.md"
   ]
 }

@@ -1,6 +1,7 @@
 ---
 name: verdi-transaction
-description: "Transaction waveform API reference for analyzing bus protocols (AXI/AHB/APB), messages, and transaction-level activity in FSDB files — stream traversal, transaction attributes, master/slave relations, protocol extraction. Use when analyzing transaction-level waveforms or bus protocol activity."
+version: 0.1.0
+description: "This skill should be used when the user asks to 'analyze transactions', 'check AXI protocol', 'read bus transactions', 'extract protocol groups', or needs transaction-level waveform analysis from FSDB. Provides transaction waveform API reference."
 ---
 
 # Transaction Waveform API

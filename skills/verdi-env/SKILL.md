@@ -1,6 +1,7 @@
 ---
 name: verdi-env
-description: "Verdi NPI environment setup — detects Verdi version, configures Python execution environment for pynpi. Use when about to execute any pynpi code against FSDB/VDB files."
+version: 0.1.0
+description: "This skill should be used when the user asks to 'set up Verdi environment', 'configure pynpi', 'run verdi_exec.sh', or when about to execute any pynpi code against FSDB/VDB files. Provides environment detection, Python 3.11 setup, and execution boilerplate."
 ---
 
 # Verdi NPI Environment Setup
