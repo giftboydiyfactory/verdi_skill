@@ -404,8 +404,15 @@ Apply these patterns to the error log in Phase 1 to automatically extract the st
 
 ---
 
+## Additional Resources
 
----
+### Reference Files
+
+For detailed debug methodologies proven on real hardware failures, consult:
+
+- **`references/hls-vmod-debug.md`** — Systematic VMOD/HLS debug methodology (10-step flow for HLS wrapper bit-width issues, data bus decoding, pipeline analysis)
+- **`references/full-stack-debug.md`** — Full-stack debug using FSDB + KDB + VDB together (multi-source loading, KDB trace APIs, fmod vs vmod recipe, perf analysis recipe, coverage gap correlation)
+- **`references/scoreboard-mismatch-debug.md`** — Scoreboard mismatch debug methodology (6-phase backward-trace process for fmod/vmod divergence in folded crossbar designs: error characterization → output comparison → pipeline backward trace → divergence identification → RTL root cause → evidence collection)
 
 ## Additional Resources
 
